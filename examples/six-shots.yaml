@@ -1,0 +1,11 @@
+model: seedance-2.5
+resolution: 720p
+aspect_ratio: adaptive
+reference_images: [character.png, location.png]
+shots:
+  - {id: opening, duration: 5, prompt: "Wide dawn exterior; the courier enters the station."}
+  - {id: clue, duration: 5, prompt: "Close shot of the same courier reading a blue envelope."}
+  - {id: chase, duration: 5, prompt: "Handheld follow shot as the courier runs through the arcade."}
+  - {id: pause, duration: 5, prompt: "The same courier pauses under rain; keep coat and face consistent."}
+  - {id: choice, duration: 5, prompt: "Over-shoulder shot; envelope opens and light spills out."}
+  - {id: resolve, duration: 5, prompt: "Crane away from the station as the courier walks into sunrise."}

@@ -1,1 +1,1 @@
-requests>=2.31,<3
+PyYAML>=6,<7
