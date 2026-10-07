@@ -1,7 +1,7 @@
 model: seedance-2.5
 resolution: 720p
-aspect_ratio: adaptive
-reference_images: [character.png, location.png]
+aspect_ratio: "16:9"
+reference_images: [https://example.test/character.png, https://example.test/location.png]
 shots:
   - {id: opening, duration: 5, prompt: "Wide dawn exterior; the courier enters the station."}
   - {id: clue, duration: 5, prompt: "Close shot of the same courier reading a blue envelope."}
